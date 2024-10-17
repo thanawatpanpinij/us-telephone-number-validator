@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: clamp(40%, 550px, 90%);
+    width: 550px;
 }
 
 .container > h1 {
@@ -23,7 +23,7 @@ body {
 }
 
 .mobile {
-    width: 42%;
+    max-width: 215px;
     height: 420px;
 
     border-radius: 35px;
